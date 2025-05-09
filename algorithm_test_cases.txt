@@ -1,0 +1,173 @@
+# Test Case 1: Factorial Calculation
+Initialize result to 1
+For i from 1 to n:
+    result = result * i
+End
+Return result
+
+# Test Case 2: Fibonacci Sequence
+Initialize a to 0
+Initialize b to 1
+For i from 1 to n:
+    Print a
+    temp = b
+    b = a + b
+    a = temp
+End
+
+# Test Case 3: Sum of Natural Numbers
+Initialize sum to 0
+For i from 1 to n:
+    sum = sum + i
+End
+Return sum
+
+# Test Case 4: Prime Number Check
+Initialize is_prime to True
+For i from 2 to n - 1:
+    If n % i == 0:
+        is_prime = False
+        Break
+    End
+End
+Return is_prime
+
+# Test Case 5: Maximum Value in Array
+Initialize max_value to arr[0]
+For i from 1 to len(arr) - 1:
+    If arr[i] > max_value:
+        max_value = arr[i]
+    End
+End
+Return max_value
+
+# Test Case 6: Exponentiation (x^y)
+Initialize result to 1
+For i from 1 to y:
+    result = result * x
+End
+Return result
+
+# Test Case 7: Average of Array
+Initialize sum to 0
+For i from 0 to len(arr) - 1:
+    sum = sum + arr[i]
+End
+Return sum / len(arr)
+
+# Test Case 8: Greatest Common Divisor (GCD)
+Initialize a to num1
+Initialize b to num2
+While b != 0:
+    Initialize temp to b
+    b = a % b
+    a = temp
+End
+Return a
+
+# Test Case 9: Bubble Sort
+For i from 0 to len(arr) - 1:
+    For j from 0 to len(arr) - i - 2:
+        If arr[j] > arr[j + 1]:
+            Swap arr[j] and arr[j + 1]
+        End
+    End
+End
+Return arr
+
+# Test Case 10: Counting Occurrences of a Character
+Initialize count to 0
+For i from 0 to len(s) - 1:
+    If s[i] == target:
+        count = count + 1
+    End
+End
+Return count
+
+Test Case 11
+Initialize gcd to 0
+For i from 1 to min(num1, num2):
+If num1 % i == 0 and num2 % i == 0:
+gcd = i
+End
+End
+Return gcd
+
+Test Case 12
+Initialize a to num1
+Initialize b to num2
+While b != 0:
+temp = b
+b = a % b
+a = temp
+End
+Return a
+
+Test Case 13
+Initialize fib to [0, 1]
+For i from 2 to n:
+fib[i] = fib[i - 1] + fib[i - 2]
+End
+Return fib
+
+Test Case 14
+Initialize is_prime to True
+For i from 2 to n - 1:
+If n % i == 0:
+is_prime = False
+Break
+End
+End
+Return is_prime
+
+Test Case 15
+For i from 0 to len(arr) - 1:
+For j from 0 to len(arr) - i - 2:
+If
+
+arr[j] > arr[j + 1]:
+Swap arr[j] and arr[j + 1]
+End
+End
+End
+Return arr
+
+Test Case 16
+Initialize count to 0
+For i from 0 to len(s) - 1:
+If s[i] == target:
+count = count + 1
+End
+End
+Return count
+
+Test Case 17
+For i from 0 to len(matrix):
+For j from 0 to len(matrix[0]):
+matrix[i][j] = matrix[i][j] * scalar
+End
+End
+Return matrix
+
+Test Case 18
+Initialize result to 1
+For i from 1 to power:
+result = result * base
+End
+Return result
+
+Test Case 19
+Initialize total to 0
+For i from 1 to n:
+If i % 2 == 0:
+total = total + i
+End
+End
+Return total
+
+Test Case 20
+Initialize difference to 0
+For i from 1 to len(arr) - 1:
+difference = arr[i] - arr[i - 1]
+End
+Return difference
